@@ -3,6 +3,8 @@
 import numpy as np
 import pandas as pd
 import contractions
+import cProfile
+import pstats
 from tqdm import tqdm
 from joblib import Memory
 from nltk.stem import WordNetLemmatizer
@@ -191,5 +193,15 @@ def main():
             "\n\n",
         )
 
+if __name__ == "__main__":
+    # Run main() under the profiler
+    cProfile.run("main()", "profile_stats")
 
-main()
+    # Create a Stats object from the profile stats
+    stats = pstats.Stats("profile_stats")
+
+    # Sort the statistics by the cumulative time spent in a function
+    stats.sort_stats("cumulative")
+
+    # Print the top 10 functions with the highest cumulative time
+    stats.print_stats(10)
