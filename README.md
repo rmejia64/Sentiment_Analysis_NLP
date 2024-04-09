@@ -20,9 +20,6 @@ This project uses logistic regression, a supervised learning algorithm, for sent
 
 To run this project, you'll need Python installed on your machine. You can install the required dependencies using pip:
 
-bash
-Copy code
-
 ```
 pip install -r requirements.txt
 ```
@@ -36,9 +33,10 @@ Download GloVe Embeddings: Download the GloVe word embeddings file (glove.840B.3
 Run the Script: Execute the main script (sentiment_analysis.py) to perform sentiment analysis. This script loads the GloVe embeddings, preprocesses the text data, trains a logistic regression model, evaluates the model's performance, and allows for interactive sentiment analysis input.
 pre-flagged datasets: https://www.kaggle.com/datasets/marklvl/sentiment-labelled-sentences-data-set
 
-bash
-Copy code
+```
 python [sentiment_analysis].py
+```
+
 replace [sentiment_analysis] with filename of model you wish to run.
 Interpret the Results: After running the script, the model's performance metrics (accuracy, F1 score, precision, and recall) will be displayed. Additionally, you can input your own text for sentiment analysis and observe the predicted sentiment (positive or negative).
 
