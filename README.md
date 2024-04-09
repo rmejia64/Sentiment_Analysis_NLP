@@ -4,7 +4,7 @@ This project demonstrates sentiment analysis using logistic regression with GloV
 
 ## Table of Contents
 
-Background
+[Background](#Background)
 Installation
 Usage
 Contributing
@@ -25,7 +25,11 @@ pip install -r requirements.txt
 ```
 
 This will install all necessary packages, including NumPy, pandas, scikit-learn, tqdm, NLTK.
-Please note: Spellchecker must be installed seperately: pip install pyspellchecker
+Please note: Spellchecker must be installed seperately: 
+
+```
+pip install pyspellchecker
+```
 
 ### Usage
 
