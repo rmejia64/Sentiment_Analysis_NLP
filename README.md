@@ -22,7 +22,8 @@ To run this project, you'll need Python installed on your machine. You can insta
 bash
 Copy code
 pip install -r requirements.txt
-This will install all necessary packages, including NumPy, pandas, scikit-learn, tqdm, NLTK, and SpellChecker.
+This will install all necessary packages, including NumPy, pandas, scikit-learn, tqdm, NLTK.
+Please note: Spellchecker must be installed seperately: pip install pyspellchecker
 
 Usage
 
