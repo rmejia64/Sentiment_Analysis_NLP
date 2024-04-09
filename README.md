@@ -1,4 +1,4 @@
-# Sentiment Analysis with Logistic Regression and GloVe Word Embeddings
+# Sentiment Analysis NLP
 
 This project demonstrates sentiment analysis using logistic regression with GloVe word embeddings. It aims to classify text data into positive or negative sentiment categories based on the content of the text.
 
