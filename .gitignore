@@ -2,3 +2,5 @@
 datasets
 __pycache__
 cache
+profile_stats
+results.txt
