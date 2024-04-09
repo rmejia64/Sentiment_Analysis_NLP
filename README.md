@@ -1,20 +1,18 @@
-# Sentiment Analysis NLP
+# Natural Language Processing Sentiment Analysis
 
-This project demonstrates sentiment analysis using logistic regression with GloVe word embeddings. It aims to classify text data into positive or negative sentiment categories based on the content of the text.
+This project demonstrates sentiment analysis using various vectorization techniques and machine learning models. It aims to classify text data into positive or negative sentiment categories based on the content of the text.
 
 ## Table of Contents
 
-[Background](#Background)
-Installation
-Usage
-Contributing
-License
+[Background](#Background)<br/>
+[Installation](#Installation)<br/>
+[Usage](#Usage)<br/>
+[Contributing](#Contributing)<br/>
+[License](#Liscense)<br/>
 
 ### Background
 
 Sentiment analysis is a natural language processing (NLP) task that involves determining the sentiment expressed in a piece of text. It has various applications, including social media monitoring, customer feedback analysis, and product reviews sentiment analysis.
-
-This project uses logistic regression, a supervised learning algorithm, for sentiment analysis. It leverages pre-trained GloVe (Global Vectors for Word Representation) word embeddings to represent words in a continuous vector space, capturing semantic relationships between words.
 
 ### Installation
 
