@@ -23,7 +23,7 @@ cache_dir = "cache"
 memory = Memory(location=cache_dir, verbose=0)
 
 
-# @memory.cache
+@memory.cache
 def load_glove(file_path):
     embeddings_index = {}
     with open(file_path, "r", encoding="utf-8") as f:
@@ -88,7 +88,7 @@ def check_coverage(data, embeddings_index):
     print("Example missing words:", list(missing_words)[:10])
 
 
-# @memory.cache
+@memory.cache
 def clean(texts):
     spell = SpellChecker()
     lemmatizer = WordNetLemmatizer()
